@@ -11,6 +11,13 @@
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/Users/Administrator/Desktop/new_netbeans_web/Boot/src/java/com/boot/docHandle/downLoadDocServlet.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/new_netbeans_web/Boot/web/template/template.ftl</file>
+            <file>file:/C:/Users/Administrator/Desktop/new_netbeans_web/Boot/web/details.jsp</file>
+            <file>file:/C:/Users/Administrator/Desktop/new_netbeans_web/Boot/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/Administrator/Desktop/new_netbeans_web/Boot/src/java/com/boot/servlet/Result.java</file>
+            <file>file:/C:/Users/Administrator/Desktop/new_netbeans_web/Boot/src/java/com/boot/docHandle/docHandle.java</file>
+        </group>
     </open-files>
 </project-private>

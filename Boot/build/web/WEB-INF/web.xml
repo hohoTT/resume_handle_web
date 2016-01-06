@@ -36,6 +36,10 @@
         <servlet-name>docCreateServlet</servlet-name>
         <servlet-class>com.boot.docHandle.docCreateServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>downLoadDocServlet</servlet-name>
+        <servlet-class>com.boot.docHandle.downLoadDocServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Register</servlet-name>
         <url-pattern>/Register</url-pattern>
@@ -67,6 +71,10 @@
     <servlet-mapping>
         <servlet-name>docCreateServlet</servlet-name>
         <url-pattern>/docCreateServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>downLoadDocServlet</servlet-name>
+        <url-pattern>/downLoadDocServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

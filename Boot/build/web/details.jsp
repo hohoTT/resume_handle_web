@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,5 +18,18 @@
     </head>
     <body>
         <jsp:include page="head.jsp"/>
+        
+        <p>求职者简历如下</p>
+        
+        <hr>
+        
+        <c:forEach var="me" items="${fileNameMap}">
+            <c:url value="/downLoadDocServlet" var="downurl">
+                <c:param name="filename" value="${me.key}"></c:param>
+            </c:url>
+            ${me.value}<a href="${downurl}">下载</a>
+            <br>
+         </c:forEach>
+    
     </body>
 </html>
