@@ -1,0 +1,112 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.login{
+    float:left;
+    position:absolute;
+    width:300px;
+    height:232px;
+    left:860px;
+    top:82px;
+    z-index: 2;
+    background: rgba(51,51,51,.7);
+    background: #7f7f7f\9;
+    border: 1px #686868 solid;
+}
+.register{
+    float:left;
+    position:relative;
+    left:135px;
+    top:7px;
+    color:#ccc;
+}
+
+.img_div{
+    float:left;
+    position:relative;
+    top:30px;
+    width:100%;
+    height:260px;
+    background:rgba(48, 58, 64, 0.42);
+    border: 1px #686868 solid;
+}
+
+.img_style{
+    margin:55px;
+    padding:30px;
+}
+
+.resume{
+    float:left;
+    position:relative;
+    margin-top:30px;
+    margin-left:15%;
+    width:70%;
+    height:658px;
+    background:#f0f0f0;
+    border: #ebebeb 1px solid;
+    border-radius:5px;
+}
+
+.action_div{
+    position:fixed;
+    width:100px;
+    height:180px;
+ 
+    top:229px;
+    left:1168px;
+}
+.find_div{
+    position:absolute;
+    width:70%;
+    height:200px;
+    margin-left:15%;
+    top:130px;
+    background:#fff;
+    border: 1px solid rgba(230,230,230,6);
+    opacity:0.7;
+}
+
+.tx_div{
+    float:left;
+    position:relative;
+    top:33px;
+    left:173px;
+    background:#fff;
+}
+
+.tiao_div{
+    position:absolute;
+    width:70%;
+    margin-left:15%;
+    top:330px;
+    background:#fff;
+    border: 1px solid rgba(230,230,230,6);
+}
+
+.find_form{
+    position:relative;
+    width:700px;
+    left:100px;
+    margin:30px;
+    padding:18px;
+    border:1px solid #ebebeb;
+    background-color:#f0f0f0;
+    border-radius:6px;
+}
+.error_div{
+    position:relative;
+    width:60%;
+    margin-left:20%;
+    height:300px;
+    border:1px solid #ebebeb;
+    background-color:#f0f0f0;
+    top:-110px;
+    opacity:0.7;
+}
+
+.result_div{
+    margin-top:20px;
+}

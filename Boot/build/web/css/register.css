@@ -1,0 +1,17 @@
+body{
+    background:#ccc;
+}
+
+.register_div{
+    float:left;
+    left:482px;
+    position:absolute;
+    top:130px;
+    width:390px;
+    height:300px;
+    z-index: 2;
+    background: rgba(51,51,51,.7);
+    background: #7f7f7f\9;
+    border: 1px #686868 solid;
+}
+
